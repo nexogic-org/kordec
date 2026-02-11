@@ -28,5 +28,7 @@
   - 解决方案: 将过程式代码结构全面转型为基于类和消息传递的编程模型。
 
 <p align="center">
+  <img src="https://nexogic.org/favicon.ico" alt="Nexogic Logo" width="16" style="vertical-align: middle;">
+  <br>
   Copyright (c) 2026 Nexogic. Released under Apache 2.0 License.
 </p>
