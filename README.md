@@ -1,5 +1,14 @@
 <center><h1>Nexogic Kordec</h1></center>
 
+---
+
+<p align="center">
+  <b>⚠️ Work In Progress (WIP) ⚠️</b><br>
+  <i>This project is currently in a very early stage of development. Any changes, features, or implementations made during this phase do not guarantee stability or usability. The authors assume no responsibility for any consequences arising from the use of the code in this repository.</i>
+</p>
+
+---
+
 > Kordec is a programming language and its accompanying workflow, featuring elegant syntax and full support for Object-Oriented Programming (OOP).
 >
 > As a refactored successor to Korelin, it maintains most backward compatibility at the syntax level but transforms procedural code structures into a programming model based on classes and message passing by enforcing a pure object-oriented paradigm.
