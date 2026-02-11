@@ -1,0 +1,4 @@
+#ifndef KORDEC_KOREDEC_H
+#define KORDEC_KOREDEC_H
+
+#endif //KORDEC_KOREDEC_H
