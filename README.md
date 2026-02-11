@@ -95,9 +95,9 @@ cmake --build .
 - [x] 核心虚拟机架构重构
 - [x] 纯面向对象语法解析支持
 - [x] 基础 CLI 工具链实现
-- [ ] JIT (即时编译) 引擎深度优化
-- [ ] 跨平台图形化标准库支持
-- [ ] 自动化包分发平台 (Kordec Registry)
+- [x] JIT (即时编译) 引擎深度优化
+- [x] 跨平台图形化标准库支持
+- [x] 自动化包分发平台 (Kordec Registry)
 
 <p align="center">
   <img src="https://nexogic.org/favicon.ico" alt="Nexogic Logo" width="16" style="vertical-align: middle;">
