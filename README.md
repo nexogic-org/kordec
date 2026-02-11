@@ -1,7 +1,8 @@
 <center><h1>Nexogic Kordec</h1></center>
 
-> Kordec作为Korelin的重构继承版,继承了大部分的语法,
-> 但通过强制纯面向对象范式，将过程式代码结构全面转型为基于类和消息传递的编程模型。
+> Kordec 开发了 Kordec 编程语言及其配套工作流，具有优雅的语法和对面向对象编程 (OOP) 的全面支持。
+>
+> 作为 Korelin 的重构继承版，它在语法层面保持了大部分的后向兼容，但通过强制纯面向对象范式，将过程式代码结构全面转型为基于类和消息传递的编程模型。
 
 <p align="center">
   <img src="logo.png" alt="Kordec LOGO" width="80">
