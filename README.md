@@ -124,6 +124,14 @@ As a successor, Kordec has undergone low-level refactoring and optimization for 
 - [ ] Cross-platform graphical standard library support
 - [ ] Automated package distribution platform (Kordec Registry)
 
+## License
+
+This project is licensed under the [Apache 2.0](LICENSE) License.
+
+## Sponsorship
+
+If you like this project, you can support us via [Afdian](https://afdian.com/a/nexogic).
+
 <p align="center">
   <img src="https://nexogic.org/favicon.ico" alt="Nexogic Logo" width="16" style="vertical-align: middle;">
   <br>

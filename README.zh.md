@@ -124,6 +124,14 @@ cmake --build .
 - [ ] 跨平台图形化标准库支持
 - [ ] 自动化包分发平台 (Kordec Registry)
 
+## 许可证
+
+本项目采用 [Apache 2.0](LICENSE) 许可证。
+
+## 赞助
+
+如果您喜欢这个项目，可以通过 [爱发电](https://afdian.com/a/nexogic) 支持我们。
+
 <p align="center">
   <img src="https://nexogic.org/favicon.ico" alt="Nexogic Logo" width="16" style="vertical-align: middle;">
   <br>
