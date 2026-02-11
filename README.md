@@ -28,3 +28,8 @@
   - 解决方案: 新增语法, 将c扩展结构开放更加底层
 - Korelin 代码可读性不强
   - 解决方案: 将过程式代码结构全面转型为基于类和消息传递的编程模型。
+
+<hr>
+<div class="footer" style="text-align: center; color: #666; font-size: 12px; margin-top: 40px; padding: 20px; border-top: 1px solid #eee;">
+   Copyright (c) 2026 Nexogic. Released under Apache 2.0 License.
+</div>
