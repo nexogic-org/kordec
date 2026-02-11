@@ -19,7 +19,7 @@
 
 ## 核心特性
 
-- **高性能运行时**: 基于自定义的 **Vector 引擎** 构建，并集成 **Jitter JIT** 即时编译技术，确保在处理复杂逻辑与大规模数据时保持卓越的执行效率。
+- **高性能运行时**: 使用的 **Vector 引擎** 执行，并集成 **Jitter JIT** 即时编译技术，确保在处理复杂逻辑与大规模数据时保持卓越的执行效率。
 - **纯面向对象 (Pure OOP)**: 强制所有代码基于类和对象构建，消除全局函数和过程式结构的混乱。
 - **消息传递模型**: 借鉴 Smalltalk 的核心思想，对象之间通过发送消息进行交互，增强解耦与灵活性。
 - **现代化工作流**: 内置 CLI 工具，支持项目初始化、编译、打包及包管理。
@@ -29,15 +29,24 @@
 
 ```text
 src/
-├── api/          # 外部调用接口 (FFI)
-├── cli/          # 命令行交互与工具链
-├── codegen/      # 目标代码生成
-├── ir/           # 向量化中间表示 (Vector IR)
-├── lexer/        # 高效词法分析
-├── parser/       # 抽象语法树 (AST) 构建
-├── preprocessing/# 包管理与预处理器
-├── runtime/      # Vector 引擎运行时、GC 与 Jitter JIT
-└── semantic/     # 语义分析与类型校验
+├── api/              # 外部调用接口 (FFI)
+├── cli/              # 命令行交互与工具链实现
+├── codegen/          # 目标代码生成器
+├── ir/               # 向量化中间表示 (Vector IR)
+├── lexer/            # 高效词法分析器
+├── optimizer/        # 代码优化器
+├── parser/           # 语法分析器与 AST 构建
+├── preprocessing/    # 包管理与预处理器
+├── runtime/          # 运行时支持
+│   ├── gc/           # 增量式垃圾回收器
+│   └── stdlib/       # 标准库 (IO, Net, JSON, Math 等)
+├── semantic/         # 语义分析与类型校验
+├── vector/           # 核心执行引擎
+│   ├── jitter/       # Jitter JIT 即时编译器
+│   ├── vm.c          # Vector VM 实现
+│   └── vm.h
+├── const.h           # 全局常量定义
+└── main.c            # 程序入口
 ```
 
 ## 快速开始
