@@ -69,6 +69,12 @@ class test {
 }
 ```
 
+使用以下命令运行此示例：
+
+```bash
+./kordec run main.kd
+```
+
 ### 编译项目
 
 确保你的环境中已安装 CMake 和 C 编译器（如 GCC 或 MSVC）：
