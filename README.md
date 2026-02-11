@@ -5,7 +5,7 @@
 > As a refactored successor to Korelin, it maintains most backward compatibility at the syntax level but transforms procedural code structures into a programming model based on classes and message passing by enforcing a pure object-oriented paradigm.
 
 <p align="center">
-  <img src="logo.png" alt="Kordec LOGO" width="80">
+  <img src="kordec.svg" alt="Kordec LOGO" width="80">
   <br>
   <b>Kordec LOGO</b>
   <br>
