@@ -82,6 +82,9 @@ cmake --build .
 ### 运行 Kordec
 
 ```bash
+# 运行脚本
+./kordec run main.kd
+
 # 查看帮助信息
 ./kordec help
 

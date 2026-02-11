@@ -82,6 +82,9 @@ cmake --build .
 ### Run Kordec
 
 ```bash
+# Run script
+./kordec run main.kd
+
 # View help information
 ./kordec help
 
